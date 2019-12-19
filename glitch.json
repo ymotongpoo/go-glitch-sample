@@ -1,0 +1,4 @@
+{
+  "install": "sh sh/install.sh",
+  "start": "sh sh/start.sh"
+}

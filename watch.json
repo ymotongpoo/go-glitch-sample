@@ -1,0 +1,10 @@
+{
+  "install": {
+    "include": ["^glitch\\.json$", "^sh/", "\\.SHA256SUMS$", "^\\.env$"]
+  },
+  "restart": {
+    "exclude": ["^go/", "^pkg/"],
+    "include": ["\\.go$"]
+  },
+  "throttle": 100
+}
